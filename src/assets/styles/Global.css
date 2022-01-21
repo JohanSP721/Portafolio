@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
+
+*
+{
+	padding: 0;
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+:root
+{
+	font-size: 62.5%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-scrollbar
+{
+	width: 1.2rem;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 100px;
+	background-image: linear-gradient(180deg, hsl(200, 30%, 33%), hsl(217, 31%, 13%), hsl(209, 32%, 18%));
+}
+
+::-webkit-scrollbar-track
+{
+	border-radius: 100px;
+	background-color: hsl(200, 50%, 85%);
+}
+
+#root
+{
+	width: 100vw;
+	height: 100vh;
+}
+
+a
+{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% .2rem;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus
+{
+    background-size: 100% .2rem;
+}

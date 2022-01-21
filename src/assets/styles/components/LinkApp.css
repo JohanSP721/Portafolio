@@ -1,0 +1,73 @@
+.link
+{
+	margin-left: 3rem;
+	font-size: 5rem;
+	color: hsla(240, 45%, 70%, .7);
+	transition: padding 0.75s;
+}
+
+.link:hover
+{
+	padding-left: 1rem;
+}
+
+.first-link
+{
+	color: white;
+}
+
+.link-fixed
+{
+	position: fixed;
+	right: 0;
+	z-index: 1;
+	color: white;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+@media only screen and (min-width: 45rem)
+{
+	.link
+	{
+		margin-left: 5rem;
+		font-size: 8rem;
+	}
+
+	.link:hover
+	{
+		padding-left: 2rem;
+	}
+
+	.link-fixed
+	{
+		align-self: flex-end;
+		margin-right: 2rem;
+		color: white;
+		font-size: 4rem;
+		font-weight: 700;
+	}
+}
+
+@media only screen and (min-width: 70rem)
+{
+	.link
+	{
+		margin-left: 10rem;
+		font-size: 15rem;
+	}
+
+	.link:hover
+	{
+		padding-left: 2rem;
+	}
+
+	.link-fixed
+	{
+		align-self: flex-end;
+		margin-right: 5rem;
+		color: white;
+		font-size: 5rem;
+		font-weight: 700;
+	}
+}
