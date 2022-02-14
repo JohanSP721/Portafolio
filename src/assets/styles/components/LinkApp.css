@@ -19,14 +19,22 @@
 .link-fixed
 {
 	position: fixed;
-	right: 0;
+	right: 1rem;
 	z-index: 1;
 	color: white;
 	font-size: 2rem;
 	font-weight: 700;
 }
 
-@media only screen and (min-width: 45rem)
+.link-home
+{
+	width: max-content;
+	color: white;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+@media only screen and (min-width: 40rem)
 {
 	.link
 	{
@@ -41,11 +49,13 @@
 
 	.link-fixed
 	{
-		align-self: flex-end;
-		margin-right: 2rem;
-		color: white;
+		right: 3rem;
 		font-size: 4rem;
-		font-weight: 700;
+	}
+
+	.link-home
+	{
+		font-size: 4rem;
 	}
 }
 
@@ -64,10 +74,7 @@
 
 	.link-fixed
 	{
-		align-self: flex-end;
-		margin-right: 5rem;
-		color: white;
+		right: 3rem;
 		font-size: 5rem;
-		font-weight: 700;
 	}
 }

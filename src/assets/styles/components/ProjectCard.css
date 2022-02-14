@@ -1,0 +1,66 @@
+.project__card
+{
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: center;
+	align-self: center;
+	max-width: 80%;
+	padding: 1rem;
+	border-radius: 2.5rem;
+	background-color: hsl(200, 30%, 33%);
+	color: hsl(209, 32%, 70%);
+	text-align: center;
+}
+
+.project__card__video
+{
+	width: 100%;
+	margin-bottom: .5rem;
+	border-radius: 2rem;
+}
+
+.project__card__code
+{
+	width: max-content;
+	color: hsl(209, 60%, 55%);
+}
+
+.project__card__button
+{
+	align-self: flex-end;
+	margin-top: .5rem;
+	padding: 1rem;
+	border-radius: 1.5rem;
+	background-image: linear-gradient(90deg, hsl(217, 31%, 13%), hsl(209, 32%, 18%), hsl(200, 30%, 33%));
+	color: hsl(209, 30%, 50%);
+}
+
+@media only screen and (min-width: 70rem)
+{
+	.project__card
+	{
+		max-width: 50%;
+	}
+
+	.project__card__name
+	{
+		font-size: 3rem;
+	}
+
+	.project__card__description
+	{
+		font-size: 1.5rem;
+	}
+
+	.project__card__code
+	{
+		font-size: 1.5rem;
+	}
+
+	.project__card__button
+	{
+		font-size: 1.5rem;
+	}
+}
+

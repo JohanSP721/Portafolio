@@ -1,4 +1,4 @@
-import { LinkApp } from "../components/LinkApp";
+import { Header } from "../components/Header";
 
 import "../assets/styles/components/About.css";
 
@@ -6,12 +6,9 @@ export const About = () =>
 {
 	return (
 		<section className="about">
-			<LinkApp
-				enter={"Johan.works"}
-				leave={"Johan"}
-				link={"/works"}
-				first={false}
-				className={"link-fixed"}
+			<Header
+				link={"/projects"}
+				enter={"johan.projects"}
 			/>
 			<h1 className="about__title">Desarrollador Web Full Stack</h1>
 			<img className="about__img" src={require("../assets/static/FondoMain.jpg")} alt="Johan Sarmiento Peña" />
@@ -21,16 +18,15 @@ export const About = () =>
 				<p className="about__paragraph">Busco desarrollar mi carrera, en una empresa del sector tecnológico, contribuyendo con mis habilidades y conocimientos para lograr diseños finales que satisfagan las necesidades y preferencias de la empresa.</p>
 				<p className="about__paragraph">La industria de la tecnología es cada vez mas importante en el mundo, creciendo a pasos agigantados y deseo contribuir activamente a este crecimiento.</p>
 				<p className="about__paragraph">Actualmente me encuentro radicado en Bogotá Colombia, me considero una persona bastante reactiva, proactiva, flexible y responsable.</p>
-				<p className="about__paragraph">algunas de mis grandes aficiones son:
-					<ul>
+				<p className="about__paragraph">algunas de mis grandes aficiones son:</p>
+				<ul className="about__list">
 						<li>Estar en constante aprendizaje 📚</li>
 						<li>El ciclismo 🚴🚴‍♂️</li>
 						<li>La música 🎵🎶</li>
 						<li>La tecnología 🖥️💻</li>
 						<li>Los videojuegos 🎮🕹️</li>
 						<li>El mundo de la animación y el cine 🎥🎞️</li>
-					</ul>
-				</p>
+				</ul>
 			</article>
 		</section>
 	);
