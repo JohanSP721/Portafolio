@@ -18,7 +18,7 @@ export const CardProject = () =>
 			<video className='project__card__video' autoPlay muted loop src={project.video}></video>
 			<h3 className='project__card__name'>{project.name}</h3>
 			<p className='project__card__description'>{project.description}</p>
-			<a className='project__card__code' href={project.code}>Codigo: {project.name}</a>
+			<p className='project__card__code'>Codigo:<a href={project.code} target={"_blank"} rel="noreferrer"> {project.name}</a></p>
 			<button className="project__card__button" onClick={() => onClickButton()}>Cerrar</button>
 		</article>
 	);

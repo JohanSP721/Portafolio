@@ -39,6 +39,7 @@
 {
 	max-width: 35rem;
 	font-size: 1rem;
+	font-weight: 100;
 	color: white;
 	white-space: nowrap;
   	overflow: hidden;

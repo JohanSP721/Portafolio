@@ -20,7 +20,7 @@
 	border-radius: 2rem;
 }
 
-.project__card__code
+.project__card__code, .project__card__code a
 {
 	width: max-content;
 	color: hsl(209, 60%, 55%);
