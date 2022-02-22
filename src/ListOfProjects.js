@@ -5,6 +5,6 @@ export const ListOfProjects = [
 	{id:4, video: "videos/ReactPlatziStore.mp4", name: "ReactPlatziStore(SPA)", description: "Ejemplo de una tienda en linea (SPA) usando React(Hooks) y ReactRouter", code:"https://github.com/JohanSP721/ReactPlatziStore.git"},
 	{id:5, video: "videos/ReactPlatziVideo.mp4", name: "ReactPlatziVideo(SPA)", description: "Proyecto con funcionalidades de búsqueda, animaciones, favoritos, reproductor de video, registro y login básicos, usando React(Hooks), ReactRouter y Redux para manejo de estado", code:"https://github.com/JohanSP721/ReactPlatziVideo.git"},
 	{id:6, video: "videos/ToDosReact.mp4", name: "ToDosReact", description: "Proyecto con un CRUD básico de 'tareas' usando el local storage del navegador y React(Hooks)", code:"https://github.com/JohanSP721/ToDosReact.git"},
-	{id:7, video: "videos/", name: "Portafolio(SPA)", description: "Portafolio de proyectos usando React(Hooks) y ReactRouter", code:"https://github.com/JohanSP721/Portafolio.git"},
+	{id:7, video: "videos/Portafolio.mp4", name: "Portafolio(SPA)", description: "Portafolio de proyectos usando React(Hooks) y ReactRouter", code:"https://github.com/JohanSP721/Portafolio.git"},
 	{id:8, video: "videos/Proyectos.mp4", name: "Proyectos(Repositorio)", description: "Repositorio de código con retos de programación en distintos lenguajes, algunos proyectos de FreeCodeCamp, retos y proyectos del programa misión tic 2022, proyectos de cursos de platzi y proyectos propios desarrollados de manera autodidacta", code:"https://github.com/JohanSP721/Proyectos.git"}
 ];

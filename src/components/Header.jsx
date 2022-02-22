@@ -2,7 +2,7 @@ import { LinkApp } from "./LinkApp";
 
 export const Header = (props) =>
 {
-	const { link, enter } = props;
+	const { link, enter, contact } = props;
 
 	return(
 		<header>
@@ -11,13 +11,20 @@ export const Header = (props) =>
 					leave={"Home"}
 					link={"/"}
 					className={"link-home"}
-				/>
-			<LinkApp
-				enter={enter}
-				leave={"Johan"}
-				link={link}
-				className={"link-fixed"}
 			/>
+
+			{
+				contact
+				?
+					undefined
+				:
+					<LinkApp
+						enter={enter}
+						leave={"Johan"}
+						link={link}
+						className={"link-fixed"}
+					/>
+			}
 		</header>
 	);
 };

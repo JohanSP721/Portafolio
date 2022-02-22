@@ -16,7 +16,7 @@
 .about__title
 {
 	align-self: flex-start;
-	margin: 3rem 0 2rem;
+	margin: 3rem 0 2rem 1.5rem;
 	font-size: 3rem;
 	color: white;
 }
@@ -95,7 +95,7 @@
 {
 	.about__title
 	{
-		font-size: 11.25rem;
+		font-size: 8rem;
 	}
 
 	.about__img
