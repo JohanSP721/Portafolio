@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+
 import { Link } from "react-router-dom";
 
 import "../assets/styles/components/LinkApp.css";

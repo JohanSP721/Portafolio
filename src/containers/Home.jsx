@@ -1,6 +1,8 @@
+import { Helmet } from "react-helmet";
+
 import { LinkApp } from "../components/LinkApp";
 
-import "../assets/styles/components/Home.css";
+import "../assets/styles/containers/Home.css";
 
 export const Home = () =>
 {
@@ -12,23 +14,29 @@ export const Home = () =>
 	]
 
 	return(
-		<section className="home">
-			<ul>
-				{
-					textsLinks.map((textsLink) =>
-					(
-						<li key={textsLink.key}>
-							<LinkApp
-								enter={textsLink.enter}
-								leave={textsLink.leave}
-								link={textsLink.link}
-								first={textsLink.first}
-								className={textsLink.className}
-							/>
-						</li>
-					))
-				}
-			</ul>
-		</section>
+		<>
+			<Helmet>
+				<title>Home | Johan Sarmiento Peña</title>
+				<meta name="description" content="Johan Sarmiento Peña Full Stack Developer" />
+			</Helmet>
+			<section className="home">
+				<ul>
+					{
+						textsLinks.map((textsLink) =>
+						(
+							<li key={textsLink.key}>
+								<LinkApp
+									enter={textsLink.enter}
+									leave={textsLink.leave}
+									link={textsLink.link}
+									first={textsLink.first}
+									className={textsLink.className}
+								/>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</>
 	)
 };

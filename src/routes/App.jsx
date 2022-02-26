@@ -4,6 +4,8 @@ import { Home } from "../containers/Home";
 import { About } from '../containers/About';
 import { Projects } from '../containers/Projects';
 import { Contact } from '../containers/Contact';
+import { NotFound } from '../containers/NotFound';
+
 
 import '../assets/styles/Global.css';
 
@@ -15,6 +17,7 @@ export const App = () =>
 			<Route path="/about" element={ <About/> }/>
 			<Route path="/projects" element={ <Projects/> }/>
 			<Route path='/contact' element={ <Contact/> }/>
+			<Route path='*' element={ <NotFound/> }/>
 		</Routes>
 	</BrowserRouter>
 );
